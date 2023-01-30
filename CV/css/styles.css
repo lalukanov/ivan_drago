@@ -1,0 +1,73 @@
+body{
+	background-color: white;
+}
+
+.body-final{
+	background-color: #6ef5d8;
+}
+
+table{
+	border-spacing: 5px;
+	margin: 1px 1px 1px 1px;
+}
+
+tr, td{
+	height: 10px;
+
+}
+
+.field{
+
+	border: solid;
+	border-color: red;
+	margin: 5px;
+	display: flex;
+	flex-direction: column;
+    height: 75%;
+    width: 98%;
+    left: 0;
+    position: absolute;
+    overflow: auto;
+
+}
+
+#kettlebell {
+  position: relative;
+  width: 3%;
+  height: auto;
+  background: white;
+  border-radius: 50% 50%;
+  z-index: 10;
+}
+
+.total-points{
+	display: block;
+	text-align: center;
+	font-size: 40px;
+}
+
+#points_counter, #lives{
+	font-size: 250%;
+}
+
+#image{
+	top: 0;
+	left: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+    z-index: 20;
+}
+
+.button-price{
+	font-size: 250%;
+	background-color: #08d4a8;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  height: 30%;
+  width: 50%;
+
+
+}
