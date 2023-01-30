@@ -44,7 +44,7 @@ document.querySelector('#kettlebell').addEventListener('click', (event) => {
 	}
 	
 	if (total_points==10) {
-		window.location.href = "file:///C:/Users/Owner/Local%20Sites/full_stack_training/CV/final.html";
+		window.location.href = "https://lalukanov.github.io/ivan_drago/CV/final";
 	};
 });
 
